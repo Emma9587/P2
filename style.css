@@ -1,0 +1,119 @@
+#bloc_page
+{
+	margin: auto;
+	width: 900px;
+}
+body
+{
+	font-family: verdana, arial, georgia;
+}
+img
+{
+	margin-left: 25%;
+}
+h1, h2
+{
+	font-family: arial;
+}
+header strong
+{
+	color: orange;
+}
+header
+{
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 5%;
+	font-size: 1.4em;
+	border: solid black 1px;
+
+}
+ul
+{
+	list-style-type: none;
+}
+aside
+{
+	float: left;
+	text-align: justify;
+    background-color: orange;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    margin-top: 0px;
+    height: 150%;
+}
+aside h2
+{
+	text-align: center;
+	background-color: grey;
+}
+section
+{
+	display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 120%;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: solid black 1px;
+}
+.formation 
+{
+	display: flex;
+    justify-content: space-around;
+    vertical-align: super;
+
+}
+.experience
+{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+    
+	width: 75%;
+	height: 25%;
+}
+.recommandation
+{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	width: 75%;
+	height: 25%;
+}
+div h2
+{
+	display: flex;
+	justify-content: center;
+	font-family: arial; 
+}	
+div i
+{
+	position: absolute;
+	color: orange;
+	width: 65px;
+}
+
+h3
+{
+	font-size: 1em;
+	font-family: arial;
+}
+div
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 20px;
+}
+span
+{
+	display: flex;
+	justify-content: right;
+}
