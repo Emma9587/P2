@@ -11,17 +11,25 @@ h1, h2
 {
 	font-family: arial;
 }
-header strong
+.titre
+{
+	font-size: 1.5em;
+	text-align: center;
+
+}
+.titre h2
+{
+	font-size: 1em;
+}
+strong
 {
 	color: orange;
 }
-header
-{
-	display: inline-flex;
-	flex-direction: column;
-	margin-left: 30px;
-	font-size: 1em;
-}
+
+/****************************/
+/***********ASIDE***********/
+/****************************/
+
 aside
 {
 	float: left;
@@ -59,70 +67,124 @@ aside h2
 {
 	color: white;
 }
-section
-{
-    margin-left: 10px;
-    font-size: 0.7em;
-    height: 740px;
-}
-.experience
-{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: column;
-	height: 25%;
-}
-.recommandation
-{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 25%;
-}
-section h2
-{
-    text-align: center;
-	font-family: arial; 
-}
-.formation
-{
-	height: 20%;
-}	
-.date
-{
-	float: left;
-	width: 140px;
-	margin-top: 30px;	
-}
-.diplome
-{
-	margin-top: 55px;
-	margin-left: 150px;
-}
 i
 {
 	color: orange;
 	width: 65px;
 }
-h3
-{
-	font-size: 1em;
-	font-family: arial;
-}
-div .text
+
+/****************************/
+/***********DROITE***********/
+/****************************/
+.container
 {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
 	margin-top: 20px;
 }
+
+section
+{
+    margin-left: 10px;
+    font-size: 0.7em;
+    height: 740px;
+}
+section h2
+{
+    text-align: center;
+	font-family: arial; 
+}
+section .container h2
+{
+	text-align: left;
+	margin-left: 10%;
+}
+.container h2
+{
+	border-bottom: solid orange 1px;
+	margin-right: 10%;
+
+}	
+
+
+/****************************/
+/*********FORMATION**********/
+/****************************/
+
+
 #grad
 {
-	border: solid black 1px;	
+		margin-right: 20%;
+}
+.date
+{
+	display: flex;
+	float: left;
+	width: 140px;
+	flex-direction: column;
+	margin-left: 10%;	
+}
+.diplome
+{
+	display: flex;
+	text-align: left;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 40%;
 }
 
+/****************************/
+/************XP**************/
+/****************************/
+
+#case
+{
+		margin-right: 20%;
+}
+.periode
+{
+	display: flex;
+	float: left;
+	width: 140px;
+	flex-direction: column;
+	margin-left: 10%;	
+}
+.poste
+{
+	display: flex;
+	text-align: left;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 40%;
+}
+
+
+/****************************/
+/************RECO************/
+/****************************/
+
+
+#pen
+{
+		margin-right: 20%;
+}
+.lea
+{
+	display: flex;
+	float: left;
+	width: 140px;
+	flex-direction: column;
+	margin-left: 10%;	
+}
+.antho
+{
+	display: flex;
+	text-align: left;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 40%;
+}
 
 /*RESPONSIVE*/
 @media screen and (min-width:1024px) and (max-width:1280px)
