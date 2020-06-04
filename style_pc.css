@@ -1,0 +1,207 @@
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+body
+{
+	font-family: verdana, arial, georgia;
+}
+h1, h2
+{
+	font-family: arial;
+}
+.titre
+{
+	font-size: 1.5em;
+	text-align: center;
+
+}
+.titre h2
+{
+	font-size: 1em;
+}
+strong
+{
+	color: orange;
+}
+
+/****************************/
+/***********ASIDE***********/
+/****************************/
+
+aside
+{
+	float: left;
+	font-size: 1em;
+    background-color: orange;
+    flex-direction: column;
+    color: white;
+    width: 20%;
+    height: 1170px;
+}
+img
+{
+	margin-left: 25%;
+	margin-top: 10%;
+}
+ul
+{
+	list-style-type: none;
+}
+aside h2
+{
+	text-align: center;
+	background-color: grey;
+}
+.contact
+{
+	justify-content: space-around;
+}
+.moi p
+{
+	width: 75%;
+	margin-left: 40px;
+}
+.loisirs i
+{
+	color: white;
+}
+i
+{
+	color: orange;
+	width: 65px;
+}
+
+/****************************/
+/***********DROITE***********/
+/****************************/
+.container
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+section
+{
+    margin-left: 10px;
+    font-size: 1em;
+    height: 740px;
+}
+section h2
+{
+    text-align: center;
+	font-family: arial; 
+}
+section .container h2
+{
+	text-align: left;
+	margin-left: 10%;
+}
+.container h2
+{
+	border-bottom: solid orange 1px;
+	margin-right: 10%;
+}	
+
+
+/****************************/
+/*********FORMATION**********/
+/****************************/
+
+.formation
+{
+	margin-top: 5%;
+}
+#grad
+{
+		margin-right: 20%;
+}
+.date
+{
+	display: flex;
+	float: left;
+	width: 140px;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-top: 20px;	
+}
+.diplome
+{
+	display: flex;
+	text-align: left;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 40%;
+	margin-top: 45px;	
+}
+
+/****************************/
+/************XP**************/
+/****************************/
+
+.experience
+{
+	margin-top: 5%;
+}
+#case
+{
+		margin-right: 20%;
+}
+.periode
+{
+	display: flex;
+	float: left;
+	width: 140px;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-top: 20px;		
+}
+.poste
+{
+	display: flex;
+	text-align: left;
+	width: 50%;
+	flex-direction: column;
+	margin-left: 40%;
+	margin-top: 35px;	
+}
+
+
+/****************************/
+/************RECO************/
+/****************************/
+
+
+.recommandation
+{
+	margin-top: 20px;
+}
+#pen
+{
+		margin-right: 20%;
+}
+.lea
+{
+	display: flex;
+	float: left;
+	width: 25%;
+	flex-direction: column;
+	margin-left: 10%;	
+}
+.antho
+{
+	display: flex;
+	text-align: left;
+	width: 25%;
+	flex-direction: column;
+	margin-left: 50%;
+}
+
+/*RESPONSIVE*/
+@media screen and (min-width:1024px) and (max-width:1280px)
+{
+	/*RESPONSIVE*/
+}
