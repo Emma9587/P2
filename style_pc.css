@@ -1,9 +1,8 @@
 
-body{
+body
+{
 	margin: 0;
 }
-
-
 #bloc_page
 {
 	width: 900px;
@@ -17,16 +16,6 @@ h1, h2
 {
 	font-family: arial;
 }
-/*.titre
-{
-	font-size: 1.5em;
-	text-align: center;
-
-}
-.titre h2
-{
-	font-size: 1em;
-}*/
 strong
 {
 	color: orange;
@@ -44,12 +33,11 @@ aside
     flex-direction: column;
     color: white;
     width: 20%;
-    /*height: 1170px;*/
 }
 img
 {
-	margin-left: 25%;
-	margin-top: 10%;
+	margin: 10% auto 0px auto;
+	display: block;
 }
 ul
 {
@@ -58,31 +46,40 @@ ul
 aside h2
 {
 	text-align: center;
-	background-color: grey;
+	background-color: black;
+	color: orange;
 }
-.contact
+/*.contact
 {
 	justify-content: space-around;
-}
+}*/
 .moi p
 {
-	/*width: 75%;*/
-	margin-left: 40px;
+	padding: 0px 20px;
 }
 .loisirs i
 {
 	color: white;
-}
-i
-{
-	color: orange;
-	width: 65px;
+	padding-left: 45px;
 }
 
 /****************************/
 /***********DROITE***********/
 /****************************/
-
+i
+{
+	color: orange;
+	width: 65px;
+}
+#titre
+{
+	margin-left: 10%;
+	margin-top: 30px;
+}
+span
+{
+	border-bottom: solid orange 2px;
+}
 .container
 {
 	display: flex;
@@ -92,29 +89,17 @@ i
 }
 section
 {
-    margin-left: 10px;
-    font-size: 1em;
-    /*height: 740px;*/
+	display: flex;
+	flex-direction: column;
 }
 section h1
 {
 	font-size: 4em;
-	border: solid black 1px;
+	margin: auto 0;
 }
-/*section #titre h2
-{
-	font-size: 2em;
-	border: solid black 1px;
-	margin-left: 20%;
-}
-/*section .container h2
-{
-	text-align: left;
-	margin-left: 10%;
-}*/
 .container h2
 {
-	border-bottom: solid orange 1px;
+	border-bottom: solid orange 2px;
 	margin-right: 10%;
 	margin-left: 10%;
 	padding-bottom: 10px;
@@ -122,7 +107,6 @@ section h1
 #cercles, #point
 {
 	width: 20px;
-	border: solid black 1px;
 	align-items: left;
 }
 h3
