@@ -1,7 +1,7 @@
 
 body
 {
-	margin: 0;
+  margin: 0;
 }
 #bloc_page
 {
@@ -208,7 +208,7 @@ h3
 }
 
 /*RESPONSIVE*/
-@media screen and (min-width:1024px) and (max-width:1280px)
+@media (min-width:1024px) and (max-width:1280px)
 {
 	/*RESPONSIVE*/
 }
