@@ -1,5 +1,12 @@
 @media (max-width: 640px) 
 {
+	body
+  {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
     aside
   {
   	background: none;
@@ -17,7 +24,7 @@
   {
   	padding-left: 0px;
   	padding-right: 0px;
-    margin: 0px 15px 0px 20px;
+    margin: 0px 10px 0px 17px;
   }
   .contact, .moi, .loisirs
   {
@@ -26,6 +33,10 @@
     align-items: center;
     float: none;
     padding-bottom: 5px;
+  }
+  .contact
+  {
+    
   }
   img
   {
@@ -46,15 +57,27 @@
   .container 
   {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
-    .container h2
+   .container h2
   {
-    font-size: 1.3em;
-    
+    font-size: 1.3em; 
+  }
+  .date, .diplome
+  {
+    font-size: 0.9em;
+    margin: 0px;
+  }
+   .periode, .poste
+  {
+    font-size: 0.9em;
+    margin: 0px;
+  }
+  .lea, .antho
+  {
+  	width: 100%;
+  	margin: 0px;
   }
 
  }
