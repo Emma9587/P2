@@ -6,14 +6,15 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
   }
     aside
   {
   	background: none;
-  	float: none;
   	width: 100%;
     margin-right: auto;
     margin-left: auto;
+    display: block;
   }
   aside p, ul
   {
@@ -34,7 +35,6 @@
     float: none;
     padding-bottom: 5px;
   }
- 
   img
   {
  	max-width: 80px;

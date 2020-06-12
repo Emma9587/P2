@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style_pc.css" />
+        <link rel="stylesheet" href="style.css" />
         <link rel ="stylesheet" href="fontawesome/fontawesome/css/all.css" />
-        <link rel="stylesheet" media="screen and (max-width: 640px)" href="petite_resolution.css">
+        <link rel="stylesheet" href="style_responsive.css">
         <script src="https://kit.fontawesome.com/4906d27238.js" crossorigin="anonymous"></script>
         <title>CV Emmanuelle Normand</title>
     </head>
@@ -44,10 +44,17 @@
         
         <div class="loisirs">
         	<h2>Loisirs</h2>
-            <i class="fas fa-book-open fa-3x"></i>
-            <i class="fas fa-gamepad fa-3x"></i>
-            <i class="fas fa-running fa-3x"></i>
-        </div>
+                <div class="row"> 
+                    <div class="col_book"> 
+                        <i class="fas fa-book-open fa-3x"></i>
+                    </div>
+                    <div class="col_game">    
+                        <i class="fas fa-gamepad fa-3x"></i>
+                    </div>
+                    <div class="col_run">
+                        <i class="fas fa-running fa-3x"></i>
+                    </div>
+                </div>      
         </div>
         
     </aside>
@@ -62,33 +69,57 @@
       
             <div class="formation"> 
             	<h2><i class="fas fa-graduation-cap fa-2x" id="grad"></i>FORMATION</h2>
-	            <div class="date">   
-	        	    <p><i class="far fa-dot-circle" id="cercles"></i>2006-2009 Chars</p>                    
-	                <p><i class="fas fa-circle" id="point"></i>2018 - 2019 Limoges</p>
-                </div>      	       
-	            <div class="diplome">
-                    <h3>LEP DE CHARS</h3>    
-	        	    <p>BEP secretariat comptabilité</p>
-	        	    <h3>TUTO.COM</h3>
-                    <p>Formation retouche photo, illustration ainsi que web design et graphisme pour le web et le print.</p> 
-                </div> 
+
+                <div class="form_ligne">                   
+                    <div class="col_date">
+                        <i class="far fa-dot-circle" id="cercles"></i><p>2006-2009 <br> Chars</p>
+                    </div>
+                    <div class="col_description">
+                        <h3>LEP DE CHARS</h3>    
+                        <p>BEP secretariat comptabilité</p>
+                    </div>
+                </div>
+                <div class="form_ligne">
+                    <div class="col_date">
+                        <i class="fas fa-circle" id="point"></i><p>2018 - 2019 <br /> Limoges</p>
+                    </div>
+                    <div class="col_description">
+                        <h3>TUTO.COM</h3>
+                        <p>Formation retouche photo, illustration ainsi que web design et graphisme pour le web et le print.</p>
+                    </div>
+                </div>
+
             </div>
             
             <div class="experience">    
-
             	<h2><i class="fas fa-suitcase fa-2x" id="case"></i>EXPERIENCE PROFESSIONELLE</h2>
-                <div class="periode">
-                	<p><i class="far fa-dot-circle" id="cercles"></i>2014 - 2016 Gisors ACI</p>
-                	<p><i class="fas fa-circle" id="point"></i>2019 Limoges  Décatlhon</p>
-                	<p><i class="fas fa-circle" id="point"></i>2019 - 2020 Limoges  Hotesse caisse acceuil</p>	
-                </div>  
-                <div class="poste">
-                    <h3>OPERATRICE</h3>
-    	            <p>Operation de découpe de produits : vignettes auto, classeurs, boites en carton... sur differentes machines outils de soudure et de découpe</p>
-                    <h3>VENDEUSE</h3>
-                    <p>Vendeuse spécialisée en randonnée, entretient et approvisionnement des lineaires, conseilliere clientelle.</p>
-                    <h3>HOTESSE</h3>
-                    <p>CulturaGestion des appels téléphoniques à l'acceuil du magasin, remise de colis clients, billeterie, caisse.</p>
+
+                <div class="form_ligne">
+                    <div class="col_date">
+                	   <i class="far fa-dot-circle" id="cercles"></i><p>2014 - 2016<br /> Gisors ACI</p>
+                    </div>
+                    <div class="col_poste">
+                        <h3>OPERATRICE</h3>
+                        <p>Operation de découpe de produits : vignettes auto, classeurs, boites en carton... sur differentes machines outils de soudure et de découpe</p>
+                    </div>
+                </div> 
+                <div class="form_ligne">
+                    <div class="col_date">
+                        <i class="fas fa-circle" id="point"></i><p>2019 Limoges <br/>  Décatlhon</p>
+                    </div>
+                    <div class="col_poste">
+                        <h3>VENDEUSE</h3>
+                        <p>Vendeuse spécialisée en randonnée, entretient et approvisionnement des lineaires, conseilliere clientelle.</p>
+                    </div>
+                </div>
+                <div class="form_ligne"> 
+                    <div class="col_date">        
+                	   <i class="fas fa-circle" id="point"></i><p>2019 - 2020 <br/>Limoges  Hotesse caisse acceuil</p>
+                    </div>
+                    <div class="col_poste">
+                        <h3>HOTESSE</h3>
+                        <p>CulturaGestion des appels téléphoniques à l'acceuil du magasin, remise de colis clients, billeterie, caisse.</p>
+                    </div>    
                 </div>
 
             </div>	 
