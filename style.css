@@ -30,8 +30,7 @@ aside
 {
 	font-size: 1em;
     background-color: orange;
-    /*flex-direction: column;*/
-    color: white;
+    color: black;
     width: 20%;
 }
 img
@@ -52,30 +51,27 @@ aside h2
 .moi p
 {
 	padding: 0px 20px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
 }
-.row i
+.moi
 {
-	color: white;
+	height: 45%;
 }
-.col_book
+.loisirs i
 {
-	border: solid black 1px;
-	width: 60px;
-}
-.col_game
-{
-	border: solid black 1px;
-	width: 60px;
-}
-.col_run
-{
-	border: solid black 1px;
-	width: 45px;
+	color: black;
+	padding-left: 10%;
+	padding-right: 5%;
+	padding-top: 30px;
 }
 .contact ul
 {
 	padding: 0px 20px;
 	min-width: 250px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 
@@ -83,6 +79,10 @@ aside h2
 /***********RIGHT************/
 /****************************/
 
+#titre
+{
+	margin-top: 5%;
+}
 i
 {
 	color: orange;
@@ -122,20 +122,29 @@ h3
 .form_ligne
 {
 	display: flex;
+	justify-content: space-between;
 }
+
 .col_description, .col_poste
 {
-	padding-left: 20%;
+	width: 60%;
 }
 .col_date
 {
-	margin-left: 5%;
+	display: flex;
+	justify-content: center;
 }
-.col_date i
+#cercles
 {
-	border: solid black 1px;
+	margin-top: 18px;
+	margin-right: 10px;
 }
 
+#point
+{
+	margin-right: 10px;
+	margin-top: 18px;
+}
 /****************************/
 /*********FORMATION**********/
 /****************************/
@@ -207,6 +216,7 @@ h3
 .recommandation
 {
 	margin-top: 20px;
+	margin-bottom: 5%;
 }
 #pen
 {
@@ -218,7 +228,7 @@ h3
 	float: left;
 	width: 25%;
 	flex-direction: column;
-	margin-left: 10%;	
+	
 }
 .antho
 {
