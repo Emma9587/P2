@@ -1,12 +1,12 @@
-@media (max-width: 640px) 
+@media (max-device-width: 640px)
+
 {
 	body
   {
-    padding-right: 15px;
-    padding-left: 15px;
+  	display: flex;
+  	flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-
   }
     aside
   {
@@ -21,11 +21,15 @@
   	padding: 0px 20px;
   	color: black;
   }
+  .moi p
+  {
+  	line-height: 1.5em;
+  }
   .loisirs i
   {
-  	padding-left: 0px;
-  	padding-right: 0px;
-    margin: 0px 10px 0px 17px;
+	color: black;
+	padding: 0px;
+	margin: 0px 25px 5px 25px;
   }
   .contact, .moi, .loisirs
   {
@@ -37,16 +41,16 @@
   }
   img
   {
- 	max-width: 80px;
+	max-width: 80px;
  	display: flex; 
  	margin: 5px 0px 0px 5px;
   }
   #titre
   {
-  top: 5px;
-  right: 0px;
-  padding: 0px;
-  position: absolute;
+    top: 5px;
+    right: 0px;
+    padding: 0px;
+    position: absolute;
  	font-size: 0.5em;
  	width: 60%;
  	margin: 0px 15px;
@@ -56,25 +60,35 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    font-size: 0.9em;
   }
    .container h2
   {
-    font-size: 1.3em; 
+    font-size: 1em; 
   }
-  .date, .diplome
+  h3 
   {
-    font-size: 0.9em;
-    margin: 0px;
+	font-size: 1em;
   }
-   .periode, .poste
+  .col_date 
+  {	
+	width: 100%;
+  } 
+  .col_description
   {
-    font-size: 0.9em;
-    margin: 0px;
+    line-height:1.5em;
+	width: 100%;	
+  }
+  .col_poste
+  {
+	line-height:1.5em;
+	width: 100%;
   }
   .lea, .antho
   {
   	width: 100%;
   	margin: 0px;
+  	line-height:1.5em;
   }
 
  }

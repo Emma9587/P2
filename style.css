@@ -35,6 +35,7 @@ aside
 }
 img
 {
+	
 	margin: 10% auto 0px auto;
 	display: block;
 }
@@ -53,11 +54,6 @@ aside h2
 	padding: 0px 20px;
 	padding-top: 5%;
 	padding-bottom: 5%;
-
-}
-.moi
-{
-	height: 45%;
 }
 .loisirs i
 {
@@ -157,7 +153,7 @@ h3
 {
 	margin-right: 25px;
 }
-.date
+/*.date
 {
 	display: flex;
 	float: left;
@@ -175,7 +171,7 @@ h3
 	margin-left: 40%;
 	margin-top: 45px;
 }
-
+*/
 /****************************/
 /************XP**************/
 /****************************/
@@ -188,7 +184,7 @@ h3
 {
 	margin-right: 25px;
 }
-.periode
+/*.periode
 {
 	display: flex;
 	float: left;
@@ -205,7 +201,7 @@ h3
 	flex-direction: column;
 	margin-left: 40%;
 	margin-top: 35px;	
-}
+}*/
 
 
 /****************************/

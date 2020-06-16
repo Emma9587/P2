@@ -1,0 +1,41 @@
+
+@media (min-width: 768px) and (max-width: 992px) 
+{
+
+  aside
+  {
+  	width: 35%;
+  }
+   .loisirs i
+  {
+	color: black;
+	padding: 0px;
+	margin: 0px 15px 5px 15px;
+  }
+   .col_date 
+  {	
+	width: 100%;
+  } 
+  .col_description
+  {
+    line-height:1.5em;
+	width: 100%;	
+  }
+  .col_poste
+  {
+	line-height:1.5em;
+	width: 100%;
+  }
+  h3
+  {
+  	font-size: 1em;
+  }
+     .container h2
+  {
+    font-size: 1.3em; 
+  }
+  .moi
+  {
+  	padding-bottom: 100%;
+  }
+}
