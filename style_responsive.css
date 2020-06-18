@@ -1,0 +1,94 @@
+@media (max-device-width: 640px)
+
+{
+	body
+  {
+  	display: flex;
+  	flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+    aside
+  {
+  	background: none;
+  	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  aside p, ul
+  {
+  	padding: 0px 20px;
+  	color: black;
+  }
+  .moi p
+  {
+  	line-height: 1.5em;
+  }
+  .loisirs i
+  {
+	color: black;
+	padding: 0px;
+	margin: 0px 25px 5px 25px;
+  }
+  .contact, .moi, .loisirs
+  {
+  	background-color: orange;
+  	display: block;
+    align-items: center;
+    float: none;
+    padding-bottom: 5px;
+  }
+  img
+  {
+	max-width: 80px;
+ 	display: flex; 
+ 	margin: 5px 0px 0px 5px;
+  }
+  #titre
+  {
+    top: 5px;
+    right: 0px;
+    padding: 0px;
+    position: absolute;
+ 	font-size: 0.5em;
+ 	width: 60%;
+ 	margin: 0px 15px;
+  }
+  .container 
+  {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.9em;
+  }
+   .container h2
+  {
+    font-size: 1em; 
+  }
+  h3 
+  {
+	font-size: 1em;
+  }
+  .col_date 
+  {	
+	width: 100%;
+  } 
+  .col_description
+  {
+    line-height:1.5em;
+	width: 100%;	
+  }
+  .col_poste
+  {
+	line-height:1.5em;
+	width: 100%;
+  }
+  .lea, .antho
+  {
+  	width: 100%;
+  	margin: 0px;
+  	line-height:1.5em;
+  }
+
+ }
