@@ -153,25 +153,7 @@ h3
 {
 	margin-right: 25px;
 }
-/*.date
-{
-	display: flex;
-	float: left;
-	width: 140px;
-	flex-direction: column;
-	margin-left: 10%;
-	margin-top: 20px;
-}
-.diplome
-{
-	display: flex;
-	text-align: left;
-	width: 50%;
-	flex-direction: column;
-	margin-left: 40%;
-	margin-top: 45px;
-}
-*/
+
 /****************************/
 /************XP**************/
 /****************************/
@@ -184,24 +166,7 @@ h3
 {
 	margin-right: 25px;
 }
-/*.periode
-{
-	display: flex;
-	float: left;
-	width: 140px;
-	flex-direction: column;
-	margin-left: 10%;
-	margin-top: 20px;		
-}
-.poste
-{
-	display: flex;
-	text-align: left;
-	width: 50%;
-	flex-direction: column;
-	margin-left: 40%;
-	margin-top: 35px;	
-}*/
+
 
 
 /****************************/
@@ -233,10 +198,4 @@ h3
 	width: 25%;
 	flex-direction: column;
 	margin-left: 50%;
-}
-
-/*RESPONSIVE*/
-@media (min-width:1024px) and (max-width:1280px)
-{
-	/*RESPONSIVE*/
 }
