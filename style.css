@@ -130,17 +130,18 @@ h3
 	display: flex;
 	justify-content: center;
 }
-#cercles
+#cercles, #cercles_2
 {
 	margin-top: 18px;
 	margin-right: 10px;
 }
 
-#point
+#point, #point_2, #point_3
 {
 	margin-right: 10px;
 	margin-top: 18px;
 }
+
 /****************************/
 /*********FORMATION**********/
 /****************************/
