@@ -35,9 +35,10 @@ aside
 }
 img
 {
-	
 	margin: 10% auto 0px auto;
 	display: block;
+	border-radius: 50%;
+		
 }
 ul
 {
