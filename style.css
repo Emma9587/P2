@@ -1,4 +1,5 @@
 
+
 body
 {
   margin: 0;
@@ -31,13 +32,22 @@ aside
 	font-size: 1em;
     background-color: orange;
     color: black;
-    width: 20%;
+    max-width: 20%;
+    min-width: 25%; 
 }
-img
+#circle 
 {
-	
-	margin: 10% auto 0px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10% auto 0px auto;
 	display: block;
+}
+#circle
+{
+	background-position: center;
+	background-size: 150px;
 }
 ul
 {
@@ -69,7 +79,6 @@ aside h2
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
-
 
 /****************************/
 /***********RIGHT************/
