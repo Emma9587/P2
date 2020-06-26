@@ -1,12 +1,10 @@
 @media (max-width: 640px)
-
 {
 	body
   {
   	display: flex;
   	flex-direction: column;
     margin-right: auto;
-    margin-left: auto;
   }
     aside
   {
@@ -15,13 +13,14 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+    max-width: none;
   }
   aside p, ul
   {
   	padding: 0px 20px;
   	color: black;
   }
-  .moi p
+  .moi, p
   {
   	line-height: 1.5em;
   }
@@ -43,11 +42,20 @@
   {
 	max-width: 80px;
  	display: flex; 
- 	margin: 5px 0px 0px 5px;
+ 	margin: 0px;
+  }
+  #circle
+  {
+  	width: 80px;
+  	height: 80px;
+  	background-size: auto;
+  	margin-left: 10px;
+  	margin-bottom: 15%;
+  	display: block;
   }
   #titre
   {
-    top: 5px;
+    top: 20px;
     right: 0px;
     padding: 0px;
     position: absolute;

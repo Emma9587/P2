@@ -1,10 +1,10 @@
 
-@media (min-width: 768px) and (max-width: 992px) 
+@media (min-width: 640px) and (max-width: 992px) 
 {
-
   aside
   {
-  	width: 35%;
+  	max-width: 35%;
+  	min-width: 40%;
   }
    .loisirs i
   {
@@ -12,19 +12,21 @@
 	padding: 0px;
 	margin: 0px 15px 5px 15px;
   }
-   .col_date 
+  .col_date 
   {	
-	width: 100%;
+  	display: flex;
+	justify-content: left;
+	width: 50%;
   } 
   .col_description
   {
     line-height:1.5em;
-	width: 100%;	
+	width: 60%;	
   }
   .col_poste
   {
 	line-height:1.5em;
-	width: 100%;
+	width: 60%;
   }
   h3
   {
@@ -37,5 +39,6 @@
   .moi
   {
   	padding-bottom: 100%;
+  	line-height:1.5em;
   }
 }
